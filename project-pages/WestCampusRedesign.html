@@ -3,16 +3,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-    <!-- 
-      TODO
-
-      Upload your Unemployable (or whatever photo you like) to the assets/images folder
-      and change the name of the image below to match the uploaded one
-
-      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
-
-      This should be the same across all pages.
-     -->
+		
      <link rel="icon" href="../assets/images/me.jpg" />
      <title>Ethan's GIS Portfolio</title>
     <meta name="description" content="Enjoy this collection of my GIS projects!">
@@ -25,56 +16,39 @@
 		<script defer src="../js/script.js"></script>
 	</head>
 	<body>
+	  
+	  
     <!-- NAVBAR -->
     <div class="navbar">
       <a class="nav-title-link" href="../index.html">
-        <!-- 
-          TODO - Change the "Portfolio Title" to whatever you want displayed in the top left
 
-          (this should be the same across all pages)
-         -->
         <span class="nav-title">Ethan's<br>GIS Portfolio</span>
-        <!-- 
-          TODO - Change the email after 'mailto:' to your email address for contact 
-        
-          (this should be the same across all pages)
-        -->
+
         <a class="button" href="mailto:ethanbars18@gmail.com">
           <span class="button-text">Contact Me</span>
         </a>
       </a>
     </div>
 
+
     <!-- MAIN PAGE CONTENT -->
     <div id="main-content">
 
       <!-- PROJECT HEADER -->
       <div id="project-header">
-          <!-- 
-            TODO
 
-            - Change the 'main-title' text to the name of your project
-            - Change the 'body-text' text to a short and sweet description of your project (maybe the same as the one on the project card)
-            - Change "desktop.jpeg" to the image filename you uploaded in the assets/images folder.
-          -->
         <div class="main-title">West Campus Redesign</div>
         <div class="body-text">My part in a team project involved using ArcGIS Pro and ArcGIS GeoPlanner (dearly departed) to model and assess site permeability. </div>
         <image class="project-header-image" src="../assets/images/Westcampusredesign.jpg">
       </div>
 
-      <!-- PROJECT DETAILS -->
-      <!-- 
-        TODO
 
-        - Change the 'subheader-text' to whatever header you want for project details
-        - Add paragraphs using the <div class="body-text"></div> elements in the "project-details-content"
-      -->
+      <!-- PROJECT DETAILS -->
       <div id="project-details">
         <div class="subheader-text">Project Details</div>
         <div class="project-details-content">
           <div class="body-text">For this group project, we were tasked with selecting a study area and modeling an ecological effect of our choosing. Our study area was selected from within the boundary of the West Campus District Plan [Figure 1], a long term project proposal at UW-Madison in partnership with University Research Park (learn more here: <a>https://finadmin.wisc.edu/westcampus/</a>). For our study, we chose to model improvements in groundwater retention and tree canopies of the current Parking Lot 60 location and it’s south-bordering block [Figure 2]. Team members used online software i-Tree Canopy to model existing and proposed tree canopy coverage and graph changes in long term carbon sequestration and air quality metrics.</div>
-          <div class="body-text">My role was to model existing land cover and groundwater retention, and repeating this analysis to fit the design proposal. Using ArcGIS Pro I created two shapefile layers that represented the existing and proposed land covers that would fit our analysis; bare lawn, permeable pavement, and non-permeable pavement [Figure 2 & Figure 3].
-After bringing these layers into a new scenario within ArcGIS GeoPlanner, I created a dashboard that would calculate water-capture quantities (gallon/sqfoot) per each land cover. Through this process, I was able to quantify the success of the proposal’s green infrastructure goals.</div>
+          <div class="body-text">My role was to model existing land cover and groundwater retention, and repeating this analysis to fit the design proposal. Using ArcGIS Pro I created two shapefile layers that represented the existing and proposed land covers that would fit our analysis; bare lawn, permeable pavement, and non-permeable pavement [Figure 2 & Figure 3]. After bringing these layers into a new scenario within ArcGIS GeoPlanner, I created a dashboard that would calculate water-capture quantities (gallon/sqfoot) per each land cover. Through this process, I was able to quantify the success of the proposal’s green infrastructure goals.</div>
           <div class="body-text">Since doing this project, ArcGIS GeoPlanner has been retired by ESRI, however its geodesign capabilities can be found in other ESRI products. ArcGIS Pro and Online Map Viewer are capable of suitability modeling. The most holistic workflow transition would be using ArcGIS Urban, a new product made specifically to evaluate impacts of land-use and development scenarios, including 3D visualizations. If I were to recreate the workflow of this project, I would do it using Urban [Figure 4].</div>
         </div>
       </div>
@@ -86,10 +60,6 @@ After bringing these layers into a new scenario within ArcGIS GeoPlanner, I crea
         <div class="subheader-text">Image Gallery</div>
         <div class="project-gallery-content">
             <!-- 
-              TODO
-
-              This is where the images in the gallery live. Here's a simple gallery image for you to copy:
-
               Full Width Image:
 
                 <div class="gallery-image-container">
@@ -103,11 +73,8 @@ After bringing these layers into a new scenario within ArcGIS GeoPlanner, I crea
                   <img src="../assets/images/IMAGE_NAME" class="gallery-image">
                   <span class="image-caption">IMAGE_CAPTION</span>
                 </div>
-
-              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
-                  - IMAGE_NAME: the name of the image file in assets/images
-                  - IMAGE_CAPTION: to the caption of the image
             -->
+            
             <div class="gallery-image-container">
                   <img src="../assets/images/snap.jpg" class="gallery-image">
                   <span class="image-caption">[Figure 1] Official concept map of West Campus District Plan from UW-Madison project site.</span>
