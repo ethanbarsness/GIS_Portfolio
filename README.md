@@ -2,7 +2,7 @@
 
 # Welcome to My Portfolio Repository! 👋
 
-![Your Name's Headshot](./assets/images/me.jpg) <!-- Add your headshot here -->
+<img src="./assets/images/me.jpg" alt="Your Name's Headshot" width="200" />
 
 Hi there! I'm **[Your Name]**, a [Your Role, e.g., Web Developer, Designer, etc.]. This repository hosts the code for my personal portfolio website. Feel free to explore the code, and don't forget to check out the live site!
 
