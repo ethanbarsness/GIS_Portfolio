@@ -28,7 +28,3 @@ This repository contains the source code for my personal portfolio website. It s
 - **Version Control**: Git & GitHub
 - **Hosting**: GitHub Pages
 
----
-
-## 📂 **Repository Structure**
-Here’s an overview of the project structure:
