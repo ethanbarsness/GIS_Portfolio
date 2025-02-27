@@ -1,15 +1,15 @@
 <div align="center">
 
-# Welcome to My Portfolio Repository! 👋
+# Welcome to My GIS Portfolio Repository! 👋
 
 <img src="./assets/images/me.jpg" alt="Your Name's Headshot" width="200" />
 
-Hi there! I'm **[Your Name]**, a [Your Role, e.g., Web Developer, Designer, etc.]. This repository hosts the code for my personal portfolio website. Feel free to explore the code, and don't forget to check out the live site!
+Hi there! I'm **Ethan Barsness**, a Landscape & Urban Studies undergraduate at The University of Madison-Wisconsin. This repository hosts the code for my personal portfolio website. Feel free to explore the code, and don't forget to check out the live site!
 
 ---
 
 ## 🌐 **Visit My Portfolio**
-👉 **[Click here to visit my portfolio website!](https://your-portfolio-url.com)**
+👉 **[Click here to visit my portfolio website!](https://ethanbarsness.github.io/GIS_Portfolio/)**
 
 ---
 
