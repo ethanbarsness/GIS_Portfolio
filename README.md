@@ -15,16 +15,3 @@ Hi there! I'm **Ethan Barsness**, a Landscape & Urban Studies undergraduate at T
 
 </div>
 
-## 🚀 **About This Project**
-This repository contains the source code for my personal portfolio website. It showcases my skills, projects, and contact information. Here's what you'll find in this repo:
-- **HTML, CSS, and JavaScript** for the website structure, styling, and interactivity.
-- **Assets** like images, icons, and fonts used in the project.
-- **Responsive Design** to ensure the site looks great on all devices.
-
----
-
-## 🛠️ **Technologies Used**
-- **Frontend**: HTML, CSS, JavaScript
-- **Version Control**: Git & GitHub
-- **Hosting**: GitHub Pages
-
