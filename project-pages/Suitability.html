@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		
+     <link rel="icon" href="../assets/images/me.jpg" />
+     <title>Ethan's GIS Portfolio</title>
+    <meta name="description" content="Enjoy this collection of my GIS projects!">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+	  
+	  
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+
+        <span class="nav-title">Ethan's<br>GIS Portfolio</span>
+
+        <a class="button" href="mailto:ethanbars18@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+
+        <div class="main-title">West Campus Redesign</div>
+        <div class="body-text">My part in a team project involved using ArcGIS Pro and ArcGIS GeoPlanner (dearly departed) to model and assess site permeability. </div>
+        <image class="project-header-image" src="../assets/images/Westcampusredesign.jpg">
+      </div>
+
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details</div>
+        <div class="project-details-content">
+          <div class="body-text">I was assigned to perform a suitability analysis on the city of Stowe, Vermont, and identify the best locations for a new landfill site. For this task, I had to consider the following criteria  in order to find a site:<br>		- Locations with flatter slopes are more suitable<br>		- Locations farthest from streams are more suitable<br>		- Locations farthest from existing landfills are more suitable</div>
+          <div class="body-text">My role was to model existing land cover and groundwater retention, and repeating this analysis to fit the design proposal. Using ArcGIS Pro I created two shapefile layers that represented the existing and proposed land covers that would fit our analysis; bare lawn, permeable pavement, and non-permeable pavement [Figure 2 & Figure 3]. After bringing these layers into a new scenario within ArcGIS GeoPlanner, I created a dashboard that would calculate water-capture quantities (gallon/sqfoot) per each land cover. Through this process, I was able to quantify the success of the proposal’s green infrastructure goals.</div>
+          <div class="body-text">Since doing this project, ArcGIS GeoPlanner has been retired by ESRI, however its geodesign capabilities can be found in other ESRI products. ArcGIS Pro and Online Map Viewer are capable of suitability modeling. The most holistic workflow transition would be using ArcGIS Urban, a new product made specifically to evaluate impacts of land-use and development scenarios, including 3D visualizations. If I were to recreate the workflow of this project, I would do it using Urban [Figure 4].</div>
+        </div>
+      </div>
+    
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+            -->
+            
+            <div class="gallery-image-container">
+                  <img src="../assets/images/snap.jpg" class="gallery-image">
+                  <span class="image-caption">[Figure 1] Official concept map of West Campus District Plan from UW-Madison project site.</span>
+                </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/before.png" class="gallery-image">
+              <span class="image-caption">[Figure 2] Existing conditions landcover shapefile layer made in ArcGIS Pro.</span>
+            </div>
+            <div class="gallery-image-container half-width">
+              <img src="../assets/images/after.png" class="gallery-image">
+              <span class="image-caption">[Figure 3] Proposed conditions landcover shapefile layer.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/snapshot.png" class="gallery-image">
+              <span class="image-caption">[Figure 4] Snapshot of ArcGIS Urban capabilities from ESRI GeoDesign Summit.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <!-- 
+        TODO - Change href to your LinkedIn account (can also delete entire "a" element if no Instagram) 
+
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/ethan-barsness-799a6628b">
+        <image src="./assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+
+      <!-- 
+        TODO - Change the email after "mailto" to your contact email 
+      
+        This should be the same across all pages.
+      -->
+      <a class="icon-link" href="ethanbars18@gmail.com">
+        <image src="/Users/ethanbarsness/Desktop/GIS_Portfolio/assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
